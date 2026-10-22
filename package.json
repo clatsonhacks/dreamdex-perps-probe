@@ -1,0 +1,21 @@
+{
+  "name": "dreamdex-perps-probe",
+  "version": "1.0.0",
+  "description": "Read-only probe of every dreamDEX perp market on Somnia Tokyo testnet (chain 50383), built on @somnia-chain/markets-sdk",
+  "scripts": {
+    "probe": "tsx src/probe.mts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@somnia-chain/markets-sdk": "^0.32.1",
+    "viem": "^2.57.10"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
